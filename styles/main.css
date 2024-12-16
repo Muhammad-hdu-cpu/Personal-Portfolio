@@ -49,10 +49,11 @@ body {
 .main {
   display: flex;
   justify-content: space-between;
+  margin-top: 180px;
 }
 
 /* Left section  */
-.left {
+.left-section {
     width: 814px;
     padding: 20px;
     color: #fff; /* Text color in left section */
@@ -60,13 +61,30 @@ body {
 .name{
     font-family: Poppins;
     font-weight: bold;
-    font-size: 86px;
+    font-size: 76px;
     line-height: 86px;
+}
+.left-section .brand{
+    margin-left: 60px;
+}
+.left-section .first{
+    color: var(--primary-font-color);
+}
+.left-section .second {
+    color: var(--secondary-font-color);
+}
+.left-section .img{
+    width: 90px;
+    position: relative;
+    bottom: 125px;
+}
+.left-section .button{
+    padding: 32px 10px;
 }
 /* Left section  */
 
 /* Right section  */
-.right {
+.right-section {
     width: 626px;
     background-color: #eeeeee;
     padding: 20px;
